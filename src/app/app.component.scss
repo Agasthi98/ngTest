@@ -1,0 +1,46 @@
+.body {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+
+  .right-side {
+    margin-right: 20px;
+
+    .form-row {
+      margin-bottom: 10px;
+
+      label {
+        width: 5rem;
+      }
+    }
+
+    .btn {
+      background-color: gray;
+      color: black;
+      float: right;
+    }
+  }
+
+  .left-side {
+    table,
+    th,
+    td {
+      border: 1px solid;
+    }
+  }
+}
+
+th {
+  width: 10rem;
+  padding: 1rem;
+}
+td {
+  padding: 1rem;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  padding: 6px 25px 6px 25px;
+  border-radius: 12px;
+}
